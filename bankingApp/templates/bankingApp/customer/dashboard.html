@@ -1,0 +1,157 @@
+﻿{% extends 'bankingApp/customer/customer_index.html' %}
+{% block content  %}
+{% load static%}
+ <section class="content home">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h2>Dashboard <small class="text-muted">Welcome to Vividh Bank</small></h2>
+                    </div>            
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">                
+                    <div class="blog-page">
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="body text-center">
+                        <div class="sparkline m-b-20" data-type="bar" data-width="97%" data-height="40px" data-bar-width="3" data-bar-spacing="5" data-bar-color="#00ced1">1,2,2,3,3,4,4,5,5,6,6,5,5,4,4,3,3,2,2,1</div>
+                        <h3 class="m-b-0"><img src="{% static 'bankingApp/assets/images/b1.jpg' %}"></h3>
+                        <small class="displayblock">4.5 % Interest Rate <i class="zmdi zmdi-trending-up"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="body text-center">
+                        <div class="sparkline m-b-20" data-type="bar" data-width="97%" data-height="40px" data-bar-width="3" data-bar-spacing="5" data-bar-color="#e4d354">1,2,2,3,3,4,4,5,5,6,6,5,5,4,4,3,3,2,2,1</div>
+                        <h3 class="m-b-0"><img src="{% static 'bankingApp/assets/images/b4.jpg' %}"></h3>
+                        <small class="displayblock">6 % Interest Rate  <i class="zmdi zmdi-trending-down"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="body text-center">
+                        <div class="sparkline m-b-20" data-type="bar" data-width="97%" data-height="40px" data-bar-width="3" data-bar-spacing="5" data-bar-color="#7cb5ec">1,2,3,4,5,4,3,2,1,2,3,4,5,6,7,8,7,6,5,4</div>
+                        <h3 class="m-b-0"><img src="{% static 'bankingApp/assets/images/b5.jpg' %}"></h3>
+                        <small class="displayblock">Saving Account<i class="zmdi zmdi-trending-up"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="body text-center">
+                        <div class="sparkline m-b-20" data-type="bar" data-width="97%" data-height="40px" data-bar-width="3" data-bar-spacing="5" data-bar-color="#f15c80">8,7,6,5,4,3,2,2,3,4,5,6,7,8,7,6,5,4</div>
+                        <h3 class="m-b-0"><img src="{% static 'bankingApp/assets/images/b6.jpg' %}"></h3>
+                        <small class="displayblock">Current Account <i class="zmdi zmdi-trending-up"></i></small>
+                    </div>
+                </div>
+            </div>
+        </div>             
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12">                
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Popular</strong> Categories</h2>
+                        <ul class="header-dropdown">
+                            <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more"></i> </a>
+                                <ul class="dropdown-menu dropdown-menu-right slideUp float-right">
+                                    <li><a href="javascript:void(0);">Edit</a></li>
+                                    <li><a href="javascript:void(0);">Delete</a></li>
+                                    <li><a href="javascript:void(0);">Report</a></li>
+                                </ul>
+                            </li>
+                            <li class="remove">
+                                <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="body">
+                        <div id="line_chart" class="graph"></div>
+                        <div class="card xl-slategray">
+                            <ul class="row profile_state list-unstyled">
+                                <li class="col-lg-3 col-md-3 col-6">
+                                    <div class="body">
+                                        <i class="zmdi zmdi-eye col-amber"></i>
+                                        <h4 class="number count-to" data-from="0" data-to="2365" data-speed="1000" data-fresh-interval="700">2365</h4>
+                                        <span>Post View</span>
+                                    </div>
+                                </li>
+                                <li class="col-lg-3 col-md-3 col-6">
+                                    <div class="body">
+                                        <i class="zmdi zmdi-thumb-up col-blue"></i>
+                                        <h4 class="number count-to" data-from="0" data-to="365" data-speed="1000" data-fresh-interval="700">365</h4>
+                                        <span>Likes</span>
+                                    </div>
+                                </li>
+                                <li class="col-lg-3 col-md-3 col-6">
+                                    <div class="body">
+                                        <i class="zmdi zmdi-comment-text col-red"></i>
+                                        <h4 class="number count-to" data-from="0" data-to="65" data-speed="1000" data-fresh-interval="700">65</h4>
+                                        <span>Comments</span>
+                                    </div>
+                                </li>
+                                <li class="col-lg-3 col-md-3 col-6">
+                                    <div class="body">
+                                        <i class="zmdi zmdi-account text-success"></i>
+                                        <h4 class="number count-to" data-from="0" data-to="2055" data-speed="1000" data-fresh-interval="700">2055</h4>
+                                        <span>Profile Views</span>
+                                    </div>
+                                </li>                      
+                            </ul>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>       
+        <div class="row clearfix">
+            <div class="col-lg-7 col-md-12">
+                <div class="card visitors-map">
+                    <div class="header">
+                        <h2><strong>Visitors</strong> Statistics <small>Description text here...</small></h2>
+                       
+                        <img src="{% static 'bankingApp/assets/images/b2.jpg' %}"><br>
+                       
+                           
+                        </ul>                        
+                    </div>
+                    <div class="body">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12">
+                                <div id="world-map-markers" class="jvector-map m-b-15"></div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="body">
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Vividh Bank </strong> Customer</h2>
+
+                    </div>
+                    
+                    
+                        <div id="donut_chart" class="dashboard-donut-chart"></div>
+                        
+                    </div>
+                    
+                </div>
+             
+            </div>
+        </div>
+       
+    </div>
+            </div>
+</section>
+                <!-- Scripts -->
+                {% endblock  %}

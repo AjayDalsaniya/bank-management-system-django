@@ -1,0 +1,152 @@
+﻿{% extends 'bankingApp/manager/index.html' %}
+{% block content %}
+<section class="content home">
+    <div class="block-header">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                
+            </div>            
+            <div class="col-lg-7 col-md-7 col-sm-12 text-right">   
+                <button class="btn btn-white btn-icon btn d-none d-md-inline-block float-right m-l-10" type="button">
+                    <a href= {% url 'home'%}><i class="zmdi zmdi-Back">Back</i></a>
+                </button>
+                        
+               
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">                
+                
+        <div class="row clearfix profile-page">
+            <div class="col-lg-4 col-md-12">
+                <div class="card profile-header">
+                    <div class="body text-center">
+                        <div class="profile-image"> <img src="{{mid.pic.url}}" alt=""> </div>
+                        <div>
+                            <h4 class="m-b-0"><strong>{{mid.firstname}}</strong> {{mid.lastname}}</h4>
+                            <span class="job_post">{{uid.role}}</span>
+                            
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-round">Follow</button>
+                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                        </div>
+                        
+                    </div>                    
+                </div>                               
+                
+                                
+            </div>
+            
+        <div class="col-lg-8 col-md-12">
+            {% if s_msg %}
+                <div class="alert alert-success" role="alert">
+                    {{s_msg}}
+                </div>
+                {% endif %}
+            <div class="card">
+                
+                <ul class="nav nav-tabs">
+                  
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Account">Account</a></li>                        
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane body active" id="about">
+                        
+                        <hr>
+                        
+                        
+                    </div>
+                    
+                    <div class="tab-pane body" id="Account">
+                        <form action="{% url 'profile-password-change' %}" method="POST">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email" value="{{uid.email}}" disabled readonly>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Current Password" name="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="New Password" name="newpassword">
+                            </div>
+                            <input type="submit" class="btn btn-info btn-round" Value="Save change">
+                            <hr>
+                        </form>
+
+                        <form action="{% url 'pic-profile' %}"method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
+                        <div class="row clearfix">
+
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    Transaction Password
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Transaction Password" name="mngTpassword" value="{{mid.mngTpassword}}">
+                                </div>
+                            </div>  
+
+
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="First Name" name = "firstname" value="{{mid.firstname}}">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Last Name" name="lastname" value="{{mid.lastname}}">
+                                </div>
+                            </div>       
+                            <div class="col-lg-4 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Country" name="country" value="India" >
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="State" name="state" value="{{mid.state}}">
+                                </div>
+                            </div>                             
+                            <div class="col-lg-4 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="City" name="city" value="{{mid.city}}">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="E-mail" name="email" value="{{uid.email}}" >
+                                </div>
+                            </div>
+                            
+
+                            <div class="col-lg-4 col-md-12">
+                                <div class="form-group">
+                                    <input type="file" class="form-control" name="profilepic">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group m-b-10">
+                                    <textarea rows="4" class="form-control no-resize" placeholder="Address Line 1" name="address" >{{mid.address}}</textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary btn-round">Save Changes</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>                        
+                </div>
+            </div>
+                       
+        </div>
+    </div>
+
+            </div>
+</section>
+
+{% endblock %}
+

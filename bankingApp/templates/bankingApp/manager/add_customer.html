@@ -1,0 +1,255 @@
+﻿{% extends 'bankingApp/manager/index.html' %}
+{% block content  %}
+<section class="content home">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h2>Add Personal Details <small class="text-muted">Welcome to 
+                        
+                        </small></h2>
+                    </div>            
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+                        
+                        <button class="btn btn-white btn-icon btn d-none d-md-inline-block float-right m-l-10" type="button">
+                            <a href= {% url 'home'%}><i class="zmdi zmdi-Back">Back</i></a>
+                        </button>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+<div class="container-fluid">                
+                
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="card">
+                {% if s_msg %}
+                <div class="alert alert-success" role="alert">
+                    {{s_msg}}
+                </div>
+                {% endif %}
+                <div class="header">
+                    <h2><strong>Add</strong> Personal details <small>Description text here...</small> </h2>
+                    <ul class="header-dropdown">                            
+                        <li class="remove">
+                            <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <form action="{% url 'add-bank-account' %}" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="body">
+                        <div class="row clearfix">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter Your Email" name="email">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    
+                                    <input type="password"  class="form-control" placeholder="Enter password " name="password"  >
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <br>
+                                    <input type="text" class="form-control" placeholder="First Name" name="firstname">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <br>
+                                    <input type="text" class="form-control" placeholder="Last Name" name="lastname">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row clearfix">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <br>
+                                    <input type="text" class="form-control" placeholder="Mobile Number " name="mobile_no">
+                                </div>
+                            </div>
+                                
+                            
+                            <div class="col-sm-3">
+                                <div class="form-group">
+                                    <br>
+                                    <input list="genderlist" name="gender"class="form-control" placeholder="Select Gender">
+                                        <datalist id="genderlist" >
+                                            <option value="Male">
+                                            <option value="Female">
+                                            <option value="Other">
+                                        </datalist>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-3">
+                                <div class="form-group">
+                                    <br>
+                                    <input type="date"  name="date" class="form-control" placeholder="date">
+                                </div>                        
+                            </div>
+                        </div>
+                            <br>
+                        <div class="row clearfix">
+                            <div class="col-sm-1">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" value="India" name="country" disabled readonly>
+                                </div>
+                            </div>
+                                
+                                <div class="col-sm-2">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter state " name="state">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter City " name="city">
+                                    </div>
+                                </div>
+                            
+
+                           
+                            
+                                    
+                                    
+                                
+                            
+
+
+
+                                <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <label class="form-control" ><center>Customer Images </center>    </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <input type="file" class="form-control"  name="pic" >
+                                    </div>
+                                </div>
+                                    
+
+                                
+
+                        </div>
+                            
+                        <div class="clearfix">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                        <textarea  rows="4" class="form-control no-resize" placeholder="Enter your Address " name="address"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="header">
+                                <h2><strong>Add</strong> Banking Details <small>Description text here...</small> </h2>
+                                
+                            </div>
+
+                            <div class="body">
+                                <div class="row clearfix">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="text" class="form-control" placeholder="Account Number " name="account_number" disabled>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <br>
+                                        <input list="acctypelist" name="account_type"class="form-control show-tick" placeholder=" Select Account Type">
+                                        <datalist id="acctypelist" >
+                                            <option value="Saving">
+                                            <option value="Current">
+
+                                        </datalist>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="text" class="form-control" placeholder="aadhar_card_number " name="aadhar_card_number">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="file" class="form-control" placeholder="aadhar_card " name="aadhar_card">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="text" class="form-control" placeholder="pan card number " name="pan_card_number">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="file" class="form-control" placeholder="pan_card " name="pan_card">
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="text" class="form-control"  name="" value="Signature > > >" disabled>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="file" class="form-control" placeholder="signature " name="signature">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="text" class="form-control" placeholder="nominee-name " name="nominee_name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <br>
+                                            <input type="text" class="form-control" placeholder="nominee_relationship " name="nominee_relationship">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-round">Submit</button>
+                                    <button type="submit" class="btn btn-default btn-round btn-simple">Cancel</button>
+                                </div>
+                            </div>
+
+                        </div>
+                
+                    </div>
+                </form> 
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+{% endblock  %}
+               

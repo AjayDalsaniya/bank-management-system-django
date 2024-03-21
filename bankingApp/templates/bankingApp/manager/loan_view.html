@@ -1,0 +1,110 @@
+﻿{% extends 'bankingApp/manager/index.html' %}
+{% block content  %}
+<section class="content home">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h2>View Profile<small class="text-muted">Welcome to 
+                        
+                        </small></h2>
+                    </div>            
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+                        <button class="btn btn-white btn-icon btn d-none d-md-inline-block float-right m-l-10" type="button">
+                            <a href= {% url 'home'%}><i class="zmdi zmdi-Back">Back</i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">                
+                
+{% for lid in lidfilter %}    
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="card">
+            {% if msg %}
+            <div class="alert alert-success" role="alert">
+                {{msg}}
+            </div>
+            {% endif %}
+            
+           
+          
+        <label class="header"><h2><strong> Loan Details </h2></label>
+          
+            <div class="row clearfix">
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <div class="header">
+                            <h2><strong> Loan type </h2></h3>{{lid.loan_type}} </strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <div class="header">
+                            <h2><strong> Loan amount </h2></h3>{{lid.loan_amount}}</strong></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="form-group">   
+                        <div class="header">
+                            <h2><strong> Interest rate </h2></h3> {{lid.interest_rate}}</strong></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="form-group">   
+                        <div class="header">
+                            <h2><strong> Periods </h2></h3> {{lid.periods}}</strong></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <div class="header">
+                            <h2><strong> Interest Amount </h2></h3>{{lid.interest_amount}} </strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <div class="header">
+                            <h2><strong> Monthly Amount </h2></h3>{{lid.monthli_amount}}</strong></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="form-group">   
+                        <div class="header">
+                            <h2><strong> Total Amount  </h2></h3> {{lid.totalAmount}}</strong></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="form-group">   
+                        <div class="header">
+                            <h2><strong> Loan Date </h2></h3> {{lid.loanDate}}</strong></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+            
+        </div>
+    </div>
+</div>
+{% endfor %}
+            </div>
+</section>
+
+{% endblock  %}
+               

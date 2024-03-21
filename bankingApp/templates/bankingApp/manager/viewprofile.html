@@ -1,0 +1,253 @@
+﻿{% extends 'bankingApp/manager/index.html' %}
+{% block content  %}
+<section class="content home">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h2>View Profile<small class="text-muted">Welcome to 
+                        
+                        </small></h2>
+                    </div>            
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+                        <button class="btn btn-white btn-icon btn d-none d-md-inline-block float-right m-l-10" type="button">
+                            <a href= {% url 'home'%}><i class="zmdi zmdi-Back">Back</i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">                
+                
+                
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="card">
+            {% if msg %}
+            <div class="alert alert-success" role="alert">
+                {{msg}}
+            </div>
+            {% endif %}
+            
+            <div class="header">
+                <h2><strong>View</strong> Profile Details <small>Description here...</small> </h2>
+                <ul class="header-dropdown">                            
+                    <li class="remove">
+                        <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <form action="{% url 'deposit' %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="body">
+                    <div class="row clearfix">
+                        <div class="user-info">
+                            <div class="col-sm-12">
+                                <div class="image"><a href="..\doctor\profile.html"><img src="{{cid.pic.url}}" alt="User" height="150px"></a>
+                                </div>
+                                <label class="header"><h2><strong> Customer Details </h2></label>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> First Name </h2></h3>{{cid.firstname}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Last Name </h2></h3>{{cid.lastname}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> mobile_no </h2></h3> {{cid.mobile_no}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> Gender </h2></h3> {{cid.gender}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Date </h2></h3>{{cid.date}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Country </h2></h3>{{cid.country}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> State </h2></h3> {{cid.state}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> City </h2></h3> {{cid.city}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Address Name </h2></h3>{{cid.address}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>   
+                    
+                       
+                    </div>
+                    <label class="header"><h2><strong> Bank Details </h2></label>
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Account-number </h2></h3>{{cid.account_number}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Account Type </h2></h3>{{bid.account_type}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> Nominee-Name </h2></h3> {{bid.nominee_name}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> Nominee-relationship </h2></h3> {{bid.nominee_relationship}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Balance </h2></h3>{{bid.balance}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Aadhar Card Number </h2></h3>{{bid.aadhar_card_number}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="form-group">
+                                
+                                    <div class="image"><a href="..\doctor\profile.html"><img src="{{bid.aadhar_card.url}}" alt="User"width="300px" height="150px"></a>
+                                    
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Pan Card Number </h2></h3>{{bid.pan_card_number}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <div class="image">
+                                    <a href="..\doctor\profile.html"><img src="{{bid.pan_card.url}}" alt="User" width="300px" height="150px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Signature  </strong></h2>
+                                    <br>
+                                    <img src="{{cid.signature.url}}" alt="User" width="300px" height="150px">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                    
+                    
+            
+            </div>
+            <label class="header"><h2><strong> <a href="{% url 'loan-View' pk=cid.account_number %}" class="btn btn-default btn-round btn-simple">Loan-View </a> </h2></label>
+           
+          
+        
+            
+          
+            
+        </div>
+    </div>
+</div>
+
+            </div>
+</section>
+
+{% endblock  %}
+               

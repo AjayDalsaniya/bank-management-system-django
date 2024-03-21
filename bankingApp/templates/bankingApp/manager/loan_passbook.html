@@ -1,0 +1,100 @@
+{%extends 'bankingApp/manager/index.html' %}
+{% block content %} 
+<section class="content home">
+<div class="block-header">
+  <div class="row">
+    <div class="col-lg-5 col-md-5 col-sm-12">
+        <h2>Passbook <small class="text-muted">Welcome to Vividh Bank</small></h2>
+    </div>            
+    
+    <div class="col-lg-7 col-md-7 col-sm-12 text-right" >
+      <button class="btn btn-white btn-icon btn d-none d-md-inline-block float-right m-l-10" type="button">
+        <a href= {% url 'home'%}><i class="zmdi zmdi-Back">Back</i></a>
+    </button>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">                
+                
+  <div class="row clearfix">
+    <div class="col-lg-12">
+      <br><br><br>
+      <div class="row clearfix">
+        <div class="col-sm-6">
+          <div class="btn btn-primary btn-round">
+              <h5>{{cid.firstname }} {{cid.lastname}}</h5>
+          </div>
+            
+          <div class="btn btn-primary btn-round">
+            <h5>Account Number :- {{cid.cust_no}}</h5>
+          </div>
+  
+        </div>
+        <div class="col-sm-3">
+
+          <div class="btn btn-primary btn-round">
+            <h5>Loan Type :- {{lid.loan_type}}</h5>
+          </div>
+
+        </div>
+
+        <div class="col-sm-3">
+
+          <div class="btn btn-primary btn-round">
+            <h5>Loan Repayment :- {{bid.loanBalance}}</h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="row clearfix">
+        <div class="col-lg-12">
+            <div class="tab-content m-t-10">
+                <div class="tab-pane active" id="Permanent">
+                    <div class="row clearfix">
+                      <br><br>
+                      
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <div class="block-header"> 
+                              <h2>
+                                <th scope="col">Date - Time </th>
+                                <th scope="col">Payment Amount</th>
+                                <th scope="col">loanBalance</th>
+                              </h2>
+                            </div>
+                          </tr>
+                        </thead>
+                        {% for p in pid %}
+                          
+                        <tbody>
+                          <tr>
+                            
+                            
+                            <td>{{p.paymentDate}}</td>
+                            
+                            <td>{{p.paymentAmount}}</td>
+                            <td>{{p.loanBalance}}</td>
+                            
+                          </tr>
+                        </tbody>
+                         
+                        {% endfor %}
+                      </table>
+                    </hr>   
+                        
+                        
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+            </div>
+        </section>
+   
+{% endblock %}

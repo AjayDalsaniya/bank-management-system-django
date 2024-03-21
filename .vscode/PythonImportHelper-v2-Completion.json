@@ -1,0 +1,1069 @@
+[
+    {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "isExtraImport": true,
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Customer",
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "isExtraImport": true,
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Loan",
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "isExtraImport": true,
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Branch",
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "isExtraImport": true,
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transcations",
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "isExtraImport": true,
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "isExtraImport": true,
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "paymentLoan",
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "isExtraImport": true,
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "django.conf",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "isExtraImport": true,
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Empty",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bankingApp.migrations.0001_initial",
+        "description": "bankingApp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Account',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('account_type', models.CharField(max_length=30)),",
+        "detail": "bankingApp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "BankingappConfig",
+        "kind": 6,
+        "importPath": "bankingApp.apps",
+        "description": "bankingApp.apps",
+        "peekOfCode": "class BankingappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'bankingApp'",
+        "detail": "bankingApp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "peekOfCode": "class User(models.Model):\n    email = models.EmailField(unique=True,max_length=30)\n    password = models.CharField(max_length=30)\n    role = models.CharField(max_length=30)\n    created_at= models.DateTimeField(auto_now_add=True,blank=False)\n    update_at = models.DateTimeField(auto_now=True,blank=False)\n    def __str__(self):\n        return self.email\n# bank manager table \nclass Branch(models.Model):",
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Branch",
+        "kind": 6,
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "peekOfCode": "class Branch(models.Model):\n    user_id = models.ForeignKey(User,on_delete=models.CASCADE)\n    branch = models.CharField(max_length=30)\n    firstname = models.CharField(max_length=30)\n    lastname = models.CharField(max_length=30)\n    mobile_no = models.CharField(max_length=30)\n    address = models.CharField(max_length=60)\n    gender = models.CharField(max_length=30,null=True)\n    date = models.CharField(max_length=20,null=True)\n    country = models.CharField(max_length=30,null=True)",
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Customer",
+        "kind": 6,
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "peekOfCode": "class Customer(models.Model):\n    cust_no = models.BigIntegerField(primary_key = True, default=None)\n    user_id = models.ForeignKey(User,on_delete=models.CASCADE)\n    manager_id = models.ForeignKey(Branch,on_delete=models.CASCADE,null=True)\n    mngid = models.CharField(max_length=30,null=True)\n    account_number = models.CharField(max_length=30,null=True)\n    firstname = models.CharField(max_length=30)\n    lastname = models.CharField(max_length=30)\n    mobile_no = models.CharField(max_length=30)\n    gender = models.CharField(max_length=20)",
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "peekOfCode": "class Account(models.Model):\n    manager_id = models.ForeignKey(Branch,on_delete=models.CASCADE)\n    customer_id = models.ForeignKey(Customer,on_delete=models.CASCADE)\n    account_type = models.CharField(max_length=30)\n    account_number = models.CharField(max_length=30,null=True) \n    aadhar_card_number = models.CharField(max_length=16)\n    pan_card_number = models.CharField(max_length=16)\n    aadhar_card = models.FileField(upload_to=\"media/images/\",default=\"media/no-image.png\")\n    pan_card = models.FileField(upload_to=\"media/images/\",default=\"media/no-image.png\")\n    nominee_name = models.CharField(max_length=30)",
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transcations",
+        "kind": 6,
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "peekOfCode": "class Transcations(models.Model):\n    bank_id = models.ForeignKey(Account,on_delete=models.CASCADE)\n    user_id = models.ForeignKey(User, on_delete=models.CASCADE)\n    customer_id = models.ForeignKey(Customer, on_delete=models.CASCADE)\n    tpassword = models.CharField(max_length=300)\n    account_number = models.CharField(max_length=30,null=True)\n    title = models.CharField(max_length=60)\n    transcations_type = models.CharField(max_length=60)\n    amount = models.IntegerField(default=500)\n    created_at= models.CharField(max_length=60)",
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Loan",
+        "kind": 6,
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "peekOfCode": "class Loan(models.Model):\n   manager_id = models.ForeignKey(Branch,on_delete=models.CASCADE)\n   customer_id = models.ForeignKey(Customer, on_delete=models.CASCADE)\n   account_number = models.CharField(max_length=30,null=True)\n   loan_type = models.CharField(max_length=60)\n   loan_amount = models.CharField(max_length=60)\n   interest_rate = models.CharField(max_length=60,null=True)\n   periods = models.CharField(max_length=60)\n   interest_amount = models.CharField(max_length=60)\n   monthli_amount = models.CharField(max_length=60)",
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "paymentLoan",
+        "kind": 6,
+        "importPath": "bankingApp.models",
+        "description": "bankingApp.models",
+        "peekOfCode": "class paymentLoan(models.Model):\n    manager_id = models.ForeignKey(Branch,on_delete=models.CASCADE)\n    customer_id = models.ForeignKey(Customer, on_delete=models.CASCADE)\n    account_number = models.CharField(max_length=30,null=True)\n    paymentDate = models.CharField(max_length=60)\n    paymentAmount = models.CharField(max_length=60)\n    loanBalance = models.CharField(max_length=60)\n    def __str__(self):\n        return self.account_number",
+        "detail": "bankingApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "bankingApp.urls",
+        "description": "bankingApp.urls",
+        "peekOfCode": "urlpatterns = [\n    #Admin\n    #path('adminlogin', views.admin, name='admin'),\n    #path('admin-login', views.admin_login, name='admin-login'),\n    #path('admin', views.admin, name='admin'),\n    #Add Maneger\n    path('add-manager', views.add_manager, name='add-manager'), \n    path('add-manager-data', views.add_manager_data, name='add-manager-data'),\n    #All Manager \n    path('allmanager', views.allmanager, name='allmanager'),",
+        "detail": "bankingApp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "add_manager",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def add_manager(request):\n    return render(request,\"bankingApp/admin/add_manager.html\")\ndef add_manager_data(request):\n    try:\n        if request.POST:\n            branch = request.POST['branch']\n            branch =branch.upper()\n            uid = User.objects.create(\n            email = request.POST[\"email\"],\n            password = request.POST[\"password\"],",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_manager_data",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def add_manager_data(request):\n    try:\n        if request.POST:\n            branch = request.POST['branch']\n            branch =branch.upper()\n            uid = User.objects.create(\n            email = request.POST[\"email\"],\n            password = request.POST[\"password\"],\n            role = \"Manager\" ,\n        )",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "allmanager",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def allmanager(request):\n   mid = Branch.objects.all()\n   context = {\n       \"mid\":mid,\n   } \n   return render(request,'bankingApp/admin/all_manager.html',context)\n#manager view profile\ndef view_profile_manager(request,pk):\n    mid = Branch.objects.get(id = pk)\n    context = {",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_profile_manager",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def view_profile_manager(request,pk):\n    mid = Branch.objects.get(id = pk)\n    context = {\n        \"mid\":mid,\n    }\n    return render(request,'bankingApp/admin/viewprofile_manager.html',context)\ndef Branch_Customer(request):\n    return render(request,\"bankingApp/admin/branch_customer.html\")\n#branch_cust_filter\ndef branch_cust_filter(request):",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Branch_Customer",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def Branch_Customer(request):\n    return render(request,\"bankingApp/admin/branch_customer.html\")\n#branch_cust_filter\ndef branch_cust_filter(request):\n    try:\n        if request.POST:\n            branch = request.POST['branch']\n            mid = Branch.objects.all()\n        if branch:\n            midfilter =mid.filter(Q(branch__icontains = branch))",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "branch_cust_filter",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def branch_cust_filter(request):\n    try:\n        if request.POST:\n            branch = request.POST['branch']\n            mid = Branch.objects.all()\n        if branch:\n            midfilter =mid.filter(Q(branch__icontains = branch))\n        context = {\n                'midfilter':midfilter,\n            }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_cust_filter",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def view_cust_filter(request,pk):\n    cid = Customer.objects.all()\n    if pk:\n        cidfilter = cid.filter(Q(mngid__icontains = pk))\n    context = {\n       \"cidfilter\":cidfilter, \n    }\n    return render (request,'bankingApp/admin/branch_customer.html',context)\n#----------------------------------------\n# Manager $ Customer",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "hom",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def home (request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session[\"email\"])\n        if uid.role == \"Manager\":\n            # Manager Panel\n            mid = Branch.objects.get(user_id = uid)\n            cust_data = Customer.objects.filter(mngid = mid.id)\n            cust_count = Customer.objects.filter(mngid = mid.id).count()\n            context = {\n            \"uid\":uid,",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def login(request):\n    # manager login\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        context = {\n            \"uid\":uid,\n            \"mid\":mid,\n        }\n        #return render(request,\"bankingApp/manager/index.html\",context)",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def logout(request):\n    if \"email\" in request.session:\n        del request.session['email']\n        return render(request,\"bankingApp/authentication/login.html\")\ndef profile(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session[\"email\"])\n        mid = Branch.objects.get(user_id = uid)\n        context = {\n            \"uid\":uid,",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def profile(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session[\"email\"])\n        mid = Branch.objects.get(user_id = uid)\n        context = {\n            \"uid\":uid,\n            \"mid\":mid,\n        }\n        return render(request,\"bankingApp/manager/profile.html\",context)\ndef profile_password_change(request):",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_password_change",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def profile_password_change(request):\n    if \"email\" in request.session:\n        if request.POST:\n            uid = User.objects.get(email = request.session[\"email\"])\n            mid = Branch.objects.get(user_id = uid)\n            try:\n                password = request.POST[\"password\"]\n                newpassword = request.POST[\"newpassword\"]\n                if password == uid.password:\n                    uid.password = newpassword",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_customer",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def add_customer(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session[\"email\"])\n        mid = Branch.objects.get(user_id = uid)\n        context = {\n                \"uid\":uid,\n                \"mid\":mid,\n        }\n        return render(request,'bankingApp/manager/add_customer.html',context)\n    else:",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "pic_profile",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def pic_profile(requsest):\n    if \"email\" in requsest.session:\n       uid = User.objects.get(email = requsest.session[\"email\"])\n       mid = Branch.objects.get(user_id = uid)\n       try:\n           if requsest.POST:\n                email = requsest.POST[\"email\"] \n                address = requsest.POST[\"address\"]\n                mngTpassword = requsest.POST[\"mngTpassword\"]\n                firstname = requsest.POST[\"firstname\"]",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_bank_account",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def add_bank_account(request):\n    if \"email\" in request.session:\n        try:\n            if request.POST:\n                uid = User.objects.get(email = request.session['email'])\n                mid = Branch.objects.get(user_id = uid)\n                accnum =random.randint(111111111111,999999999999)\n                account_number = accnum\n                ac1 = account_number\n                #create Customer",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "all_customers",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def all_customers(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        call = Customer.objects.all()\n        context = {\n                \"uid\":uid,\n                \"mid\":mid,\n                \"call\":call,\n        }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "emi",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def emi(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        context = {\n                \"uid\":uid,\n                \"mid\":mid,  \n        }\n        return render(request,'bankingApp/manager/emi.html',context)\ndef emi_calc(request):",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "emi_calc",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def emi_calc(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        try:\n            if request.POST:\n                amount = int(request.POST['amount'])\n                rate = float(request.POST['rate'])\n                periods = float(request.POST['periods'])\n                total = amount*rate*periods/100",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "loan",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def loan(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        call = Customer.objects.all()\n        context = {\n                \"uid\":uid,\n                \"mid\":mid,\n                \"call\":call,\n        }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_loan",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def add_loan(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        try:       \n            if request.POST:\n                account_number = int(request.POST['account_number'])\n                loan_type = request.POST['loan_type']\n                loan_amount = int(request.POST['loan_amount'])\n                tranpassword = request.POST['tranpassword']",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Loan_Repayment",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def Loan_Repayment(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        context = {\n                \"uid\":uid,\n                \"mid\":mid,\n            }\n        return render(request,'bankingApp/manager/Repayment_loan.html',context)\ndef add_Repayment(request):",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_Repayment",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def add_Repayment(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        try:\n            if request.POST:\n                account_number = request.POST[\"account_number\"]\n                paymentAmount = int(request.POST[\"paymentAmount\"])\n                tranpassword = request.POST['tranpassword']\n                cid  = Customer.objects.get(cust_no = account_number)",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "loan_passbook",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def loan_passbook(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        cid = Customer.objects.get(cust_no = pk)\n        bid = Account.objects.get(customer_id = cid.cust_no)\n        pid  = paymentLoan.objects.all()  \n        lid = Loan.objects.get(account_number = cid.cust_no)  \n        if cid.cust_no:\n            pid =pid.filter(Q(account_number__icontains = cid.cust_no))    ",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "loan_View",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def loan_View(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        try:\n            #lid = Loan.objects.get(customer_id = pk)\n            lid = Loan.objects.all()\n            if pk:\n                lidfilter =lid.filter(Q(account_number__icontains = pk))\n            context = {",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_customer",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def view_customer(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        call = Customer.objects.all()\n        context = {\n                \"uid\":uid,\n                \"mid\":mid,\n                \"call\":call,\n        }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "filter",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def filter(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)    \n        try:\n            if request.POST:\n                accno = request.POST['accno']\n                cid = Customer.objects.all()\n            if accno:\n                cidfilter =cid.filter(Q(account_number__icontains = accno))",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_profile",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def view_profile(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        cid = Customer.objects.get(cust_no=pk)\n        bid = Account.objects.get(customer_id = cid.cust_no)\n        context = {\n                    \"uid\":uid,\n                    \"mid\":mid,    \n                    \"cid\":cid,",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_customers_function",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def edit_customers_function(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        customer_edit = Customer.objects.get(cust_no=pk)\n        bacc = Account.objects.get(customer_id = customer_edit.cust_no)\n        context = {\n                \"uid\":uid,\n                \"mid\":mid,\n                \"customer_edit\":customer_edit,",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_customers_function",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def update_customers_function(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        #id = uid.id\n        mid = Branch.objects.get(user_id = uid)\n        if request.POST:\n            cbid = request.POST['accno']\n            password = request.POST['password']\n            newpassword = request.POST['newpassword']\n            id = request.POST['id']",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_customers_function",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def delete_customers_function(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        cid = Customer.objects.get(cust_no = pk)\n        cid.delete()\n        call =Customer.objects.all()\n        context = {\n            'uid':uid,\n            'mid':mid,",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def transaction(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        cid = Customer.objects.get(cust_no = pk)\n        context = {\n            'uid':uid,\n            'mid':mid,\n            'cid':cid,\n        }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "deposit_withdraw",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def deposit_withdraw(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        try:\n            if request.POST:\n                custno = int(request.POST['custno'])\n                print(\"cust_no : \",custno)\n                title = request.POST['title']\n                transcations_type = request.POST['transcation_type']",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Passbook",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def Passbook(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        cid = Customer.objects.get(cust_no = pk)\n        bid = Account.objects.get(customer_id = cid.cust_no)\n        tid = Transcations.objects.all()\n        if cid.cust_no:\n            tid =tid.filter(Q(account_number__icontains = cid.cust_no))\n        context = {",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "transfer_money",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def transfer_money(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        context = {\n                \"uid\":uid,\n                'mid':mid,\n            }\n        return render(request,\"bankingApp/manager/transferamount.html\",context)\ndef TRANFER_MONEY1(request):",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "TRANFER_MONEY1",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def TRANFER_MONEY1(request):\n    if 'email' in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        mid = Branch.objects.get(user_id = uid)\n        try:\n            if request.POST:\n                YourAccountNum = int(request.POST['YourAccountNum'])\n                TransferAccountNum = int(request.POST['TransferAccountNum'])\n                title = request.POST['title']\n                tpassword = request.POST['tpassword']",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "custpassbook",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def custpassbook(request):\n    if 'email' in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        bid  = Account.objects.get(customer_id = cid.cust_no)\n        tid  = Transcations.objects.all()\n        if cid.cust_no:\n            tid =tid.filter(Q(account_number__icontains = cid.cust_no))\n        context={\n            'uid':uid,",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "cust_profile",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def cust_profile(request):\n    if 'email' in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        bid  = Account.objects.get(customer_id = cid.cust_no)\n        context={\n            'uid':uid,\n            'cid':cid,\n            'bid':bid,\n        }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "cust_profile_password_change",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def cust_profile_password_change(request):\n    if 'email' in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        bid  = Account.objects.get(customer_id = cid.cust_no)\n        try:\n            if request.POST:\n                password = request.POST[\"password\"]\n                newpassword = request.POST[\"newpassword\"]\n                tpassword = request.POST[\"tpassword\"]",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "custTransfer",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def custTransfer(request):\n    if 'email' in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        bid  = Account.objects.get(customer_id = cid.cust_no) \n        context = {\n                \"uid\":uid,\n                \"bid\":bid,\n                'cid':cid,\n            }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "transfer_amount",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def transfer_amount(request):\n     if 'email' in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        try:\n            if request.POST:\n                accno = request.POST['accno']\n                account_number2 = request.POST['account_number2']\n                title = request.POST['title']\n                tpassword = request.POST['tpassword']",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Loan_Repayment_cust",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def Loan_Repayment_cust(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        context = {\n                \"uid\":uid,\n                \"cid\":cid,\n            }\n        return render(request,'bankingApp/customer/Repayment_loan_cust.html',context)\ndef add_Repayment_cust(request):",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_Repayment_cust",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def add_Repayment_cust(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        mid = cid.manager_id\n        try:\n            if request.POST:\n                account_number = request.POST[\"account_number\"]\n                paymentAmount = int(request.POST[\"paymentAmount\"])\n                tranpassword = request.POST['tranpassword']",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "loan_passbook_cust",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def loan_passbook_cust(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(cust_no = pk)\n        bid = Account.objects.get(customer_id = cid.cust_no)\n        pid  = paymentLoan.objects.all()    \n        if cid.cust_no:\n            pid =pid.filter(Q(account_number__icontains = cid.cust_no))    \n        context = {\n            'uid':uid,",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Loan_details_cust",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def Loan_details_cust(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        try:\n            lid  = Loan.objects.get(customer_id = pk )\n            context = {\n                \"uid\":uid,\n                \"cid\":cid,\n                \"lid\":lid,",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Dashboard",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def Dashboard(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        call = Customer.objects.all()\n        context = {\n            \"uid\":uid,\n            \"cid\":cid,\n            \"call\":call,\n        }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "emi_cust",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def emi_cust(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        context = {\n            \"uid\":uid,\n            \"cid\":cid,\n        }\n        return render (request,\"bankingApp/customer/emi_cust.html\",context)\ndef emi_calc_cust(request):",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "emi_calc_cust",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def emi_calc_cust(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        try:\n            if request.POST:\n                amount = int(request.POST['amount'])\n                rate = float(request.POST['rate'])\n                periods = float(request.POST['periods'])\n                total = amount*rate*periods/100",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "app_password",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def app_password(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        context = {\n                    \"uid\":uid,\n                    \"cid\":cid, \n            }\n        return render(request,'bankingApp/customer/app_password.html',context)\ndef change_password(request):",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "change_password",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def change_password(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        try:\n            if request.POST:\n                id = request.POST['id']\n                password = request.POST['password']\n                newpassword = request.POST['newpassword']\n                uidpass = User.objects.get(id = id)",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "tra_password",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def tra_password(request,pk):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        bid = Account.objects.get(customer_id = pk)\n        context = {\n                    \"uid\":uid,\n                    \"cid\":cid, \n                    \"bid\":bid,\n            }",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "tran_change_password",
+        "kind": 2,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "def tran_change_password(request):\n    if \"email\" in request.session:\n        uid = User.objects.get(email = request.session['email'])\n        cid = Customer.objects.get(user_id = uid)\n        try:\n            if request.POST:\n                id = request.POST['id']\n                password = request.POST['password']\n                newpassword = request.POST['newpassword']\n                bidtpass = Account.objects.get(customer_id = id)",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "named_tuple",
+        "kind": 5,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "named_tuple = time.localtime()\ntime_string = time.strftime(\"%d/%m/%y, %I:%M:%S\",named_tuple)\n# Create your views here.\n#Admin \n#def  admin (request):\n# admin add manager\ndef add_manager(request):\n    return render(request,\"bankingApp/admin/add_manager.html\")\ndef add_manager_data(request):\n    try:",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "time_string",
+        "kind": 5,
+        "importPath": "bankingApp.views",
+        "description": "bankingApp.views",
+        "peekOfCode": "time_string = time.strftime(\"%d/%m/%y, %I:%M:%S\",named_tuple)\n# Create your views here.\n#Admin \n#def  admin (request):\n# admin add manager\ndef add_manager(request):\n    return render(request,\"bankingApp/admin/add_manager.html\")\ndef add_manager_data(request):\n    try:\n        if request.POST:",
+        "detail": "bankingApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "myproject.asgi",
+        "description": "myproject.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "myproject.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-clp*#73b2s0+qq5y)m1=(=wgib$vwvypkag!1&fd@f@+c&2dd4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-clp*#73b2s0+qq5y)m1=(=wgib$vwvypkag!1&fd@f@+c&2dd4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'bankingApp',",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'bankingApp',\n]\nMIDDLEWARE = [",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'myproject.urls'",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "ROOT_URLCONF = 'myproject.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'myproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        #'ENGINE': 'django.db.backends.sqlite3',\n        #'NAME': BASE_DIR / 'db.sqlite3',\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME':'bnkms',\n        'USER':'root',",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        #'ENGINE': 'django.db.backends.sqlite3',\n        #'NAME': BASE_DIR / 'db.sqlite3',\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME':'bnkms',\n        'USER':'root',\n        'PASSWORD':'',\n        'HOST':'localhost',\n        'PORT':'3378',",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "myproject.settings",
+        "description": "myproject.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "myproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "myproject.urls",
+        "description": "myproject.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('bankingApp.urls'))\n]",
+        "detail": "myproject.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "myproject.wsgi",
+        "description": "myproject.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "myproject.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
